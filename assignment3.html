@@ -1,0 +1,429 @@
+<html>
+	<head>
+		<title>YouTube Mimic</title>
+		<style> 
+			body{
+				font-family: Arial, sans-serif;
+				background-color: white;
+			}
+			
+			a{
+				color: gray;
+				text-decoration: none;
+			}
+			
+			.leftColumn{
+				display:block;
+				height:100%;
+				width:8%;
+				height:auto;
+				float:left;
+				position:fixed;
+				top:20%;
+			}
+			.header{
+				padding-bottom:5px;
+				position:fixed;
+				top:0;
+				height:50px;
+				display:block;
+				width:100%;
+				z-index:1;
+				background-color: white;
+				overflow:hidden;
+			}
+			.main{
+				
+				position: relative;
+				top:51px;
+				height:auto;
+				left:9%;
+				display:block;
+				background-color:#EBEBEB;
+				padding:3%;
+			}
+			
+			.menu_item{
+				color:gray;
+				font-size: 13px;
+				border: 2px solid red;
+				line-height: 20px;
+				text-align: left;
+				padding-left: 5px;
+				margin:0px;
+			}
+			
+			.header_SearchBarPosition{
+				width:40%;
+				height:20px;
+				position:relative;
+				left:25%;
+				border:1px solid blue;
+				margin-top:15px;
+			}
+			
+			.video_box{
+				display:inline-block;
+			}
+			
+			#genre{
+				position: relative;
+				display:block;
+				background-color:gray;
+				color:white;
+				line-height: 20px;
+				left: 0px;
+				padding-left:20px;
+				font-weight:bold;
+			}
+			
+			#header_Youtube{
+				position: relative;
+				left: 20px;
+				float:left;
+
+			}
+			
+			#header_SignIn{
+				position: relative;
+				float:right;
+				top:-25;
+			}
+			
+			#leftColumn_SignIn{
+				position: relative;
+				float:right;
+				top:-25;
+				margin-top:80%;
+			}
+			
+			#search{
+				position: relative;
+				left: -50px; <!-- Don't like this solution -->
+				font-size: 12px;
+				color:blue;
+				line-height:21px
+			}
+			
+			#signinbutton{
+				<!--clip:rect(10px,5px,5px,5px); curious to get this working-->
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+	
+		<div class="header">
+			<a id="header_Youtube" href="https://www.youtube.com target="_blank"><img src="http://i61.tinypic.com/2s9dkqc.png" border="0" alt="Header YouTube Image" width=75px height=75px></a>
+			<div class="header_SearchBarPosition">
+				<span id="search">Search</span>
+			</div>
+			<a id="header_SignIn" href="https://www.youtube.com/signin" target="_blank"><img id="signinbutton" src="http://i58.tinypic.com/24qle6t.png" border="0" alt="Sign-In Button"></a>
+			
+			
+		</div>
+		<div class="leftColumn">
+	
+			<div class="menu_item">
+				<a href="#Popular_on_Youtube">Popular on YouTube</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Music">Music</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Sports">Sports</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Gaming">Gaming</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Education">Education</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Movies">Movies</a>
+			</div>
+			<div class="menu_item">
+				<a href="#News">News</a>
+			</div>
+			<div class="menu_item">
+				<a href="#Spotlight">Spotlight</a>
+			</div>
+			<a id="leftColumn_SignIn" href="https://www.youtube.com/signin" target="_blank"><img id="signinbutton" src="http://i58.tinypic.com/24qle6t.png" border="0" alt="Sign-In Button"></a>
+
+		</div>
+
+		<div class="main">
+			<span id="genre"><a name="Popular_on_Youtube"></a>Popular on YouTube</span>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Music"></a>Music</span>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Sports"></a>Sports</span>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Gaming"></a>Gaming</span>
+<!--GAMING-->
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Education"></a>Education</span>
+<!--Education -->
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Movies"></a>Movies</span>
+<!-- Movies -->
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="News"></a>News</span>
+<!-- News -->
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<span id="genre"><a name="Spotlight"></a>Spotlight</span>
+<!-- Spotlight -->
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" "><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href="" ><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+			<div class="video_box">
+				<a href=""><img src="http://i57.tinypic.com/312e149.png" border="0" alt="A YouTube video" height=260px width=300px></a>
+				
+			</div>
+
+		</div>
+	</body>
+<html>
